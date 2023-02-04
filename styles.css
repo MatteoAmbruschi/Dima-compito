@@ -233,4 +233,5 @@ p {
     border-bottom: 2px solid rgb(17, 17, 17)  ;
     user-select: none;
     border-radius: 5px;
+    display: none;
 }

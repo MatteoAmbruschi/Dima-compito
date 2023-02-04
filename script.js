@@ -862,8 +862,8 @@ menuScritta.appendChild(lato)
       cardElements[index].style.backgroundColor = "gray";
     }
 /////////////////////////////////////////////////// ADMIN
-    if (item.isAdmin === false) {///non faccio visualizzare se false
-      button1Elements[index].style.display = "none";
+    if (item.isAdmin === true) {///non faccio visualizzare se false
+      button1Elements[index].style.display = "block";
     } else {
     }
   });

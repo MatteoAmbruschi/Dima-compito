@@ -851,6 +851,7 @@ menuScritta.appendChild(lato)
 //////////////////////////////////////////////////COLORI:
 
   const cardElements = document.querySelectorAll(".card"); //seleziono tutte le carte nella classe .card
+  const button1Elements = document.querySelectorAll(".button1"); //seleziono tutte le carte nella classe .card
 
   array.forEach(function(item, index) {    //La funzione che mi permette di lavorare nell'inxex della pagina
     if (item.gender === "M") {
@@ -860,21 +861,13 @@ menuScritta.appendChild(lato)
     } else {
       cardElements[index].style.backgroundColor = "gray";
     }
-  });
-
-
-  /////////////////////////////////////////////////// ADMIN
-
-///non faccio visualizzare se false
-  const button1Elements = document.querySelectorAll(".button1"); //seleziono tutte le carte nella classe .card
-
-  array.forEach(function(item, index) {    //La funzione che mi permette di lavorare nell'inxex della pagina
-    if (item.isAdmin === false) {
+/////////////////////////////////////////////////// ADMIN
+    if (item.isAdmin === false) {///non faccio visualizzare se false
       button1Elements[index].style.display = "none";
     } else {
     }
   });
-
+ 
 
 ///funzione per accordion
 const button1 = document.querySelectorAll(".button1");

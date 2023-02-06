@@ -861,7 +861,7 @@ menuScritta.appendChild(lato)
     } else {
       cardElements[index].style.backgroundColor = "gray";
     }
-    if (item.isAdmin === false) {
+    if (item.isAdmin === true) {
       button1Elements[index].style.display = "block";
     } else {
     }

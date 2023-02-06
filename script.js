@@ -862,7 +862,7 @@ menuScritta.appendChild(lato)
       cardElements[index].style.backgroundColor = "gray";
     }
     if (item.isAdmin === false) {
-      button1Elements[index].style.display = "none";
+      button1Elements[index].style.display = "block";
     } else {
     }
   });

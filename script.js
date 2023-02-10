@@ -740,14 +740,16 @@ const array = [
 	}
 ]
 
-
+/////
   
-// in base allo stipendio
+////// in base allo stipendio
 array.sort((a, b) => a.salary - b.salary);
 
 
+//sort mi permette di riodinare
 
-// in base allo stipendio
+
+////// in base al sesso
 array.sort((a, b) => {
   if (a.gender < b.gender) {
     return -1;
@@ -758,7 +760,7 @@ array.sort((a, b) => {
   return 0;
 });
 
-
+////
 
 ///////////////////////////////////////////////////CREAZIONE CARTE
 

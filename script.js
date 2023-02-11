@@ -771,7 +771,7 @@ array.forEach((data) => { //la funzione
 function creaCard(data){ //la funzione
 	// Card
     const card = document.createElement("div") //creo il div
-    card.className = "container" //creo la ClassName
+    card.className = "container-card" //creo la ClassName
 
     const innerDiv = document.createElement("div") 
     innerDiv.className = "card"
